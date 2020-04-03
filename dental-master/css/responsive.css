@@ -1,0 +1,17 @@
+@media only screen and (max-width: 910px) {
+  .slider__item {
+    flex: 0 0 50%;
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-caption {
+    padding-bottom: 0;
+    bottom: 0;
+  }
+}
