@@ -15,3 +15,23 @@
     bottom: 0;
   }
 }
+@media only screen and (max-width:970px) {
+  .servtopcont{
+    padding: 5px;
+  }
+  .servicescont{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width:752px){
+  .servicestop{
+    justify-content: space-around;
+  }
+}

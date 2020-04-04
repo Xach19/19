@@ -21,6 +21,7 @@
     />
     <title>Dental Lab</title>
     <link rel="stylesheet" href="css/indexcss.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
@@ -43,16 +44,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="index - Русский.html" class="nav-link linkColor">Главное</a>
+              <a href="index - Русский.html" class="nav-link">Главное</a>
             </li>
             <li class="nav-item">
-              <a href="aboutus-rus.html" class="nav-link linkColor">О Нас</a>
+              <a href="aboutus-rus.html" class="nav-link">О Нас</a>
             </li>
             <li class="nav-item">
-              <a href="services/services-rus.html" class="nav-link linkColor">Услуги</a>
+              <a href="services/services-rus.html" class="nav-link">Услуги</a>
             </li>
             <li class="nav-item">
-              <a href="contactus-rus.html" class="nav-link linkColor">Контакты</a>
+              <a href="contactus-rus.html" class="nav-link">Контакты</a>
             </li>
           </ul>
         </div>
@@ -64,13 +65,13 @@
 
     <section
       id="top"
-      class="jumbotron jumbotron-fluid text-white d-flex justify-content-left align-items-center "
+      class="jumbotron jumbotron-fluid text-white d-flex justify-content-left align-items-center"
     >
       <div class="container text-center">
         <h1 class="display-1 text-primary text-uppercase">
           Dental Lab
         </h1>
-        <p class="display-4 d-none d-sm-block ">Мы работаем для вас</p>
+        <p class="display-4 d-none d-sm-block">Мы работаем для вас</p>
         <p class="lead">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
           neque aut iure veritatis quas iusto, similique ratione amet molestias
@@ -84,6 +85,27 @@
           facere vitae beatae.
         </p>
       </div>
+      <a class="scroll-link" href="#ourProducts">
+        <svg
+          class="mouse"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 76 130"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <rect
+              width="70"
+              height="118"
+              x="1.5"
+              y="1.5"
+              stroke="#FFF"
+              stroke-width="3"
+              rx="36"
+            />
+            <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF" />
+          </g>
+        </svg>
+      </a>
     </section>
 
     <section id="ourProducts" class="bg-light pt-3 pb-5">
@@ -91,7 +113,7 @@
       <div id="showcase">
         <div
           id="carousel"
-          class="carousel slide col-12 col-sm-11 col-md-10 col-lg-9 col-xl-9  m-auto"
+          class="carousel slide col-12 col-sm-11 col-md-10 col-lg-9 col-xl-9 m-auto"
           data-ride="carousel"
         >
           <ul class="carousel-indicators">
@@ -403,9 +425,15 @@
                 <i class="fas fa-fw fa-globe text-white"></i> Изменить язык
               </button>
               <div class="dropdown-menu" aria-labelledby="dropDownMenuButton">
-                <a href="index - English.html" class="dropdown-item small px-1">English</a>
-                <a href="index - Русский.html" class="dropdown-item small px-1">Русский</a>
-                <a href="index.html" class="dropdown-item small px-1">Հայերեն</a>
+                <a href="index - English.html" class="dropdown-item small px-1"
+                  >English</a
+                >
+                <a href="index - Русский.html" class="dropdown-item small px-1"
+                  >Русский</a
+                >
+                <a href="index.html" class="dropdown-item small px-1"
+                  >Հայերեն</a
+                >
               </div>
             </div>
           </div>
@@ -424,7 +452,7 @@
       //   });
       // });
 
-      window.onscroll = function() {
+      window.onscroll = function () {
         myFunction();
       };
 

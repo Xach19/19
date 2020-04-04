@@ -1,35 +1,11 @@
-.progress-container {
-  width: 100%;
-  height: 5px;
-  position: fixed;
-  top: 0;
-  background: #fff;
-  z-index: 10000;
-}
-
-.nav-item{
-  padding-left: 30px;
-}
-
-.progress-bar {
-  height: 5px;
-  background: #007bff;
-  width: 0%;
-}
-
 .jumbotron {
   background-image: url(../img/top.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   min-height: 100vh;
+  margin-bottom: 0;
 }
-
-.linkColor:hover {
-  color: black;
-}
-
-
 
 .slider {
   position: relative;
@@ -117,11 +93,46 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
 
 .ourProd {
   text-align: center;
+}
+
+.scroll-link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mouse {
+  max-width: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes scroll {
+  0%,
+  20% {
+    transform: translateY(0) scaleY(1);
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(36px) scaleY(2);
+    opacity: 0.01;
+  }
+}
+
+.scroll {
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.65, -0.55, 0.25, 1.5);
+  animation-iteration-count: infinite;
+  transform-origin: 50% 20.5px;
+  will-change: transform;
 }
