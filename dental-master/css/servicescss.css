@@ -29,18 +29,18 @@ h2{
   -ms-transition:color 0.5s linear;
   -o-transition:color 0.5s linear;
 }
-.servicestop{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#sectiontop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.servicestop a{
+#sectiontop a{
   text-decoration: none;
-  margin: 10px;
+  padding: 10px;
   text-align: center;
 }
 .servtopcont{
-  padding: 10px;
+  padding: 5px 5px;
   border: 2px solid;
   border-radius: 20px;
   border-color: rgb(201,227,255);
@@ -57,10 +57,11 @@ h2{
 .servtopcont:hover h2{
   color:black;
 }
-.services{
+main>section{
   background-color: rgb(248,249,250);
-  margin-top: 20px;
-  padding: 15px;
+  padding-top: 35px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding-bottom: 35px;
 }
 .services1{

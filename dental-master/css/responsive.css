@@ -3,16 +3,40 @@
     flex: 0 0 50%;
     width: 33%;
   }
+  #servtop{
+    font-size: 70px;
+  }
+  #abouttop1{
+    font-size: 100px;
+  }
+  #abouttop2{
+    font-size: 70px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .carousel-indicators {
     display: none;
   }
-
   .carousel-caption {
     padding-bottom: 0;
     bottom: 0;
+  }
+  .divmain>h2{
+    font-size: 30px;
+  }
+  .divmaincont>h2{
+    font-size: 30px;
+  }
+  #servtop{
+    font-size: 30px;
+    font-weight: 450;
+  }
+  #abouttop1{
+    font-size: 60px;
+  }
+  #abouttop2{
+    font-size: 30px;
   }
 }
 @media only screen and (max-width:970px) {
@@ -29,9 +53,33 @@
   h3{
     font-size: 2rem;
   }
+  .div{
+    flex-wrap: wrap;
+  }
+  .divmain>h2{
+    font-size: 40px;
+  }
+  .divmaincont>h2{
+    font-size: 40px;
+    width: 100%;
+  }
+  .divmaincont{
+    width: 100%;
+  }
 }
 @media only screen and (max-width:752px){
   .servicestop{
     justify-content: space-around;
+  }
+}
+@media only screen and (max-width:1150px){
+  .divmain>h2{
+    font-size: 50px;
+  }
+  .divmaincont>h2{
+    font-size: 50px;
+  }
+  #h1{
+    font-size: 60px;
   }
 }
