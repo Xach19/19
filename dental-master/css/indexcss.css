@@ -69,11 +69,11 @@
 }
 
 .slider__control_left {
-  left: 0;
+  left: -5px;
 }
 
 .slider__control_right {
-  right: 0;
+  right: -5px;
 }
 
 .slider__control::before {

@@ -3,13 +3,13 @@
     flex: 0 0 50%;
     width: 33%;
   }
-  #servtop{
+  #servtop {
     font-size: 70px;
   }
-  #abouttop1{
+  #abouttop1 {
     font-size: 100px;
   }
-  #abouttop2{
+  #abouttop2 {
     font-size: 70px;
   }
 }
@@ -22,64 +22,91 @@
     padding-bottom: 0;
     bottom: 0;
   }
-  .divmain>h2{
+  .divmain > h2 {
     font-size: 30px;
   }
-  .divmaincont>h2{
+  .divmaincont > h2 {
     font-size: 30px;
   }
-  #servtop{
+  #servtop {
     font-size: 30px;
     font-weight: 450;
   }
-  #abouttop1{
+  #abouttop1 {
     font-size: 60px;
   }
-  #abouttop2{
+  #abouttop2 {
     font-size: 30px;
   }
 }
-@media only screen and (max-width:970px) {
-  .servtopcont{
+
+@media only screen and (min-width: 650px) {
+  #fixed {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 38px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.712);
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .servtopcont {
     padding: 5px;
   }
-  .servicescont{
+  .servicescont {
     flex-wrap: wrap;
     justify-content: center;
   }
-  h2{
+  h2 {
     font-size: 25px;
   }
-  h3{
+  h3 {
     font-size: 2rem;
   }
-  .div{
+  .div {
     flex-wrap: wrap;
   }
-  .divmain>h2{
+  .divmain > h2 {
     font-size: 40px;
   }
-  .divmaincont>h2{
+  .divmaincont > h2 {
     font-size: 40px;
     width: 100%;
   }
-  .divmaincont{
+  .divmaincont {
     width: 100%;
   }
 }
-@media only screen and (max-width:752px){
-  .servicestop{
+
+@media only screen and (max-width: 752px) {
+  .servicestop {
     justify-content: space-around;
   }
 }
-@media only screen and (max-width:1150px){
-  .divmain>h2{
+
+@media only screen and (max-width: 770px) {
+  .scroll-link {
+    display: none;
+  }
+
+  #fixed {
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    line-height: 58px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.712);
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .divmain > h2 {
     font-size: 50px;
   }
-  .divmaincont>h2{
+  .divmaincont > h2 {
     font-size: 50px;
   }
-  #h1{
+  #h1 {
     font-size: 60px;
   }
 }

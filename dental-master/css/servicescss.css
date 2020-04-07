@@ -1,90 +1,79 @@
-html{
-  scroll-behavior: smooth;
-}
-.nav-item{
-  padding-left: 30px;
-}
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
-#sectionh2{
+#sectionh2 {
   text-align: center;
-  margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: black;
 }
-h1{
+h1 {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 20px;
-  color: rgb(0,123,255);
+  color: rgb(0, 123, 255);
 }
-h2{
-  color: rgb(117,117,117);
-  transition:color 0.5s linear;
-  -webkit-transition:color 0.5s linear;
-  -moz-transition:color 0.5s linear;
-  -ms-transition:color 0.5s linear;
-  -o-transition:color 0.5s linear;
+h2 {
+  color: rgb(117, 117, 117);
+  transition: color 0.5s linear;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
 }
-#sectiontop{
+#sectiontop {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#sectiontop a{
+#sectiontop a {
   text-decoration: none;
-  padding: 10px;
+  padding: 0.512vw;
   text-align: center;
 }
-.servtopcont{
+.servtopcont {
   padding: 5px 5px;
   border: 2px solid;
   border-radius: 20px;
-  border-color: rgb(201,227,255);
-  transition:border 0.5s linear;
-  -webkit-transition:border 0.5s linear;
-  -moz-transition:border 0.5s linear;
-  -ms-transition:border 0.5s linear;
-  -o-transition:border 0.5s linear;
-  margin-bottom:border 10px;
+  border-color: rgb(201, 227, 255);
+  transition: border 0.5s linear;
+  -webkit-transition: border 0.5s linear;
+  -moz-transition: border 0.5s linear;
+  -ms-transition: border 0.5s linear;
+  -o-transition: border 0.5s linear;
+  margin-bottom: border 10px;
 }
-.servtopcont:hover{
-    border-color: rgb(0,123,255);
+.servtopcont:hover {
+  border-color: rgb(0, 123, 255);
 }
-.servtopcont:hover h2{
-  color:black;
+.servtopcont:hover h2 {
+  color: black;
 }
-main>section{
-  background-color: rgb(248,249,250);
-  padding-top: 35px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-bottom: 35px;
-}
-.services1{
+.services1 {
   margin-top: 20px;
   padding: 15px;
   padding-bottom: 35px;
 }
-.servicescont{
+.servicescont {
   display: flex;
   align-items: center;
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
-.servicescont img{
+.servicescont img {
   max-width: 60%;
   max-height: 60%;
 }
-.servicescont p{
+.servicescont p {
   max-width: 70%;
   padding-bottom: 10px;
   margin: 0 auto;
 }
-.name-price{
+.name-price {
   font-style: italic;
+}
+hr {
+  width: 99%;
+  border: 1px solid rgba(240, 240, 240, 0.644);
+  margin-bottom: 2vw;
 }
